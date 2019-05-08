@@ -1,4 +1,6 @@
 # Micro Word Clock v2
+A fork of the Micro Word Clock designed by [formatc170](https://github.com/formatc1702/Micro-Word-Clock). I intend to modify the files to make this into a compact desktop clock with an inbuilt battery.
+
 
 ## Description
 A tiny replica of the famous Word Clock, using only an ATmega microcontroller, a DS1307 Real Time Clock and a few passive components to display the time on an 8x8 LED matrix. The letters have been printed onto a transparent sheet and glued over the LEDs to produce a readable time.
@@ -36,18 +38,6 @@ Please download Carlos Rodrigues' Barebones ATmega Chips board configuration fil
 https://github.com/carlosefr/atmega (instructions inside)
 
 The ICSP header on the Micro Word Clock PCB is the standard layout described [here](http://www.atmel.com/images/doc0943.pdf) (Fig. 2).
-
-## Contributions
-Carl Monk has built [his own version](http://fortoffee.org.uk/2014/12/word-clock-with-a-unicorn/) using a [Unicorn HAT](http://shop.pimoroni.com/products/unicorn-hat).
-
-[quistoph](https://github.com/qistoph) has made a Dutch layout.
-
-Tanguy Rewers independently came up with an alternative Dutch layout (labeled as dutch2).
-
-## Featured on
-- [Hackaday](http://hackaday.com/2014/11/29/micro-word-clock/)
-- [Gizmodo](http://gizmodo.com/build-a-tiny-version-of-those-pricey-word-clocks-on-the-1665134624)
-- [The Atmel Blog](http://blog.atmel.com/2014/12/01/build-your-own-micro-word-clock-with-an-atmega328p/)
 
 ## License
 This project (both software and hardware) is published under a [Creative Commons BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/).
